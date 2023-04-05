@@ -77,14 +77,14 @@ Showing active cluster
   <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/10.jpg" width="" heigth="" alt="step 1"/> 
 
 ### 11.	Create app.py, Dockerfile,aws-task-definition.json, and requirements.txt. Upload to Github
-  <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/11.jpg" width="" heigth="" alt="step 1"/> 
+  <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/11.png" width="" heigth="" alt="step 1"/> 
 
 
 ### 12.	Create CI/CD pipeline in workflow with aws.yml file
- <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/12.jpg" width="" heigth="" alt="step 1"/>  
+ <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/12.png" width="" heigth="" alt="step 1"/>  
 
 ### 13.	Deploy files to AWS 
   <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/13.jpg" width="" heigth="" alt="step 1"/>
 
 ### 14. Accessing Flask app on register URL ecsflask.gabrielaliera.com
- <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/14.jpg" width="" heigth="" alt="step 1"/>
+ <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/14.png" width="" heigth="" alt="step 1"/>
