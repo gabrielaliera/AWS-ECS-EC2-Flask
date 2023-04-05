@@ -40,45 +40,51 @@ The next step was to create the necessary files to Dockersize my flask applicati
 The last step was to create a workflow that will deploy to AWS. I used a custom template from Github to create an aws.ym file. I set different variables to the previous made repository, service, cluster, task definition, and container name. 
 	
 ## Appendix
-1. IAM User Creation with permission policies
- <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/1.png" width="" heigth="" alt="step 1"/>
+### 1. IAM User Creation with permission policies
+ <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/1.jpg" width="" heigth="" alt="step 1"/>
 
-2. Create ECS repository
- <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/2.png" width="" heigth="" alt="step 1"/>
-3.	Create Task definition on ECS
-  <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/3.png" width="" heigth="" alt="step 1"/>
-4.	Create cluster ssh key pair
-  <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/4.png" width="" heigth="" alt="step 1"/>
-5.	Create a cluster 
+### 2. Create ECS repository
+ <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/2.jpg" width="" heigth="" alt="step 1"/>
+
+### 3. Create Task definition on ECS
+ <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/3.jpg" width="" heigth="" alt="step 1"/>
+
+### 4. Create cluster ssh key pair
+ <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/4.jpg" width="" heigth="" alt="step 1"/>
+
+### 5. Create a cluster 
+ <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/5.jpg" width="" heigth="" alt="step 1"/> 
+
+### 6. Begin creating  a service to cluster
+ <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/6.jpg" width="" heigth="" alt="step 1"/>  
+
+### 7.Create application load balancer to add to cluster ( Also create target group)
+ <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/7.jpg" width="" heigth="" alt="step 1"/> 
  
-6.	Begin creating  a service to cluster
-  
-7.	Create application load balancer to add to cluster ( Also create target group)
- 
- 
-8.	Add application load balancer to cluster
- 
+### 8. Add application load balancer to cluster
+  <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/8.jpg" width="" heigth="" alt="step 1"/>
+
 Newly created service in cluster with load balancer
- 
+<img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/8b.jpg" width="" heigth="" alt="step 1"/> 
+
 Showing active cluster
-  
+ <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/8c.jpg" width="" heigth="" alt="step 1"/>  
 
-9.	Edit security group of EC2 instance to allow http, ssh from my personal ip address, and all traffic from the security group
- 
+### 9. Edit security group of EC2 instance to allow http, ssh from my personal ip address, and all traffic from the security group
+  <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/9.jpg" width="" heigth="" alt="step 1"/>
 
-10.	Register domain name on Route53 and connect load balancer
-  
+### 10. Register domain name on Route53 and connect load balancer
+  <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/10.jpg" width="" heigth="" alt="step 1"/> 
 
-11.	Create app.py, Dockerfile,aws-task-definition.json, and requirements.txt. Upload to Github
-  
-
-
-12.	Create CI/CD pipeline in workflow with aws.yml file
-  
+### 11.	Create app.py, Dockerfile,aws-task-definition.json, and requirements.txt. Upload to Github
+  <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/11.jpg" width="" heigth="" alt="step 1"/> 
 
 
-13.	Deploy files to AWS 
- 
+### 12.	Create CI/CD pipeline in workflow with aws.yml file
+ <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/12.jpg" width="" heigth="" alt="step 1"/>  
 
-14.	 Accessing Flask app on register URL ecsflask.gabrielaliera.com
+### 13.	Deploy files to AWS 
+  <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/13.jpg" width="" heigth="" alt="step 1"/>
 
+### 14. Accessing Flask app on register URL ecsflask.gabrielaliera.com
+ <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/14.jpg" width="" heigth="" alt="step 1"/>
