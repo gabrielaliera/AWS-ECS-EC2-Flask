@@ -40,15 +40,15 @@ The next step was to create the necessary files to Dockersize my flask applicati
 The last step was to create a workflow that will deploy to AWS. I used a custom template from Github to create an aws.ym file. I set different variables to the previous made repository, service, cluster, task definition, and container name. 
 	
 ## Appendix
-1.	IAM User Creation with permission policies
- 
+1. IAM User Creation with permission policies
+ <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/1.png" width="" heigth="" alt="step 1"/>
 
-2.	Create ECS repository
- 
+2. Create ECS repository
+ <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/2.png" width="" heigth="" alt="step 1"/>
 3.	Create Task definition on ECS
- 
+  <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/3.png" width="" heigth="" alt="step 1"/>
 4.	Create cluster ssh key pair
- 
+  <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/4.png" width="" heigth="" alt="step 1"/>
 5.	Create a cluster 
  
 6.	Begin creating  a service to cluster
