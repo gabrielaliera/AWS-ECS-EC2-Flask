@@ -59,8 +59,8 @@ The last step was to create a workflow that will deploy to AWS. I used a custom 
  <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/6.jpg" width="" heigth="" alt="step 1"/>  
 
 ### 7.Create application load balancer to add to cluster ( Also create target group)
- <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/7.jpg" width="" heigth="" alt="step 1"/> 
- 
+ <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/7a.jpg" width="" heigth="" alt="step 7a"/> 
+  <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/7b.jpg" width="" heigth="" alt="step 7b"/> 
 ### 8. Add application load balancer to cluster
   <img src="https://github.com/gabrielaliera/ecs_flask_final/blob/main/images/8.jpg" width="" heigth="" alt="step 1"/>
 
