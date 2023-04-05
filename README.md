@@ -38,3 +38,47 @@ The next step was to create the necessary files to Dockersize my flask applicati
 
 ## Create CI/CD pipeline in Github
 The last step was to create a workflow that will deploy to AWS. I used a custom template from Github to create an aws.ym file. I set different variables to the previous made repository, service, cluster, task definition, and container name. 
+	
+## Appendix
+1.	IAM User Creation with permission policies
+ 
+
+2.	Create ECS repository
+ 
+3.	Create Task definition on ECS
+ 
+4.	Create cluster ssh key pair
+ 
+5.	Create a cluster 
+ 
+6.	Begin creating  a service to cluster
+  
+7.	Create application load balancer to add to cluster ( Also create target group)
+ 
+ 
+8.	Add application load balancer to cluster
+ 
+Newly created service in cluster with load balancer
+ 
+Showing active cluster
+  
+
+9.	Edit security group of EC2 instance to allow http, ssh from my personal ip address, and all traffic from the security group
+ 
+
+10.	Register domain name on Route53 and connect load balancer
+  
+
+11.	Create app.py, Dockerfile,aws-task-definition.json, and requirements.txt. Upload to Github
+  
+
+
+12.	Create CI/CD pipeline in workflow with aws.yml file
+  
+
+
+13.	Deploy files to AWS 
+ 
+
+14.	 Accessing Flask app on register URL ecsflask.gabrielaliera.com
+
