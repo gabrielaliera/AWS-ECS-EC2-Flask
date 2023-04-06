@@ -10,6 +10,7 @@ The first thing I did was to create an IAM user with the roels necessary to run 
   <li>AmazonEC2ContainerRegistryFullAccess</li>
   <li>AmazonECS_FullAccess</li>
   <li>EC2InstanceProfileForImageBuilderECRContainerBuilds</li>
+ </ul>
 
 ## Elastic Container Registry
 The next step I did was create a repository called “ecs-flask-repo”  that will hold my docker image when I push it to AWS. 
