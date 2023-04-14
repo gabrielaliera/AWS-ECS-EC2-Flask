@@ -1,7 +1,7 @@
 
 # AWS Compute Final Project
 ## Summary
-The aim of this project is to build the infrastructure associated with continous deployment in a CI/CD pipeline. Using a simple Flask application, the code is packaged into Docker image, and automatic deployment is push into to AWS. AWS technologies used in this project include IAM, ECR, ECS, and Route53. Elastic Container Registery(ECR) holds the Docker image. When the code is push into AWS, the Flask app is launch into EC2 instances by pulling the image from ECR. An application load balancer is used to direct user requests to the appropriate EC2 instance, and a domain name purchased from Route53 is utilized to customize the URL. 
+The aim of this project is to build the infrastructure associated with continuous deployment in a CI/CD pipeline. A simple Flask application is packaged into a Docker image, which is then automatically deployed to AWS. AWS technologies utilized in this project include IAM, ECR, ECS, and Route53. Elastic Container Registry (ECR) holds the Docker image. When the code is committed to GitHub, the app is launched into EC2 instances by pulling the image from ECR. An application load balancer is used to direct user requests to the appropriate EC2 instance, and a domain name purchased from Route53 is utilized to customize the URL. 
 
 The steps of the project are outlined in the rest of the document with screenshots provided in the appendix.
 
