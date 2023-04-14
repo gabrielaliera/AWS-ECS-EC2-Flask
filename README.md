@@ -1,7 +1,9 @@
 
 # AWS Compute Final Project
 ## Summary
-The aim of this project is to create a professional website using Flask and Docker, and host it on AWS. The infrastructure for the website will be set up, but the content will be added later. A Hello World Flask application will be created and Dockerized on GitHub, and a CI/CD pipeline will be established to push the Flask app to AWS. AWS services like IAM, ECR, ECS, and Route53 are used to create a cluster with services and task definitions to pull the image from ECR and launch the Flask app on an ECS EC2 instance. An application load balancer is added to direct user requests to the appropriate EC2 instance. I also purchased a domain name from Route53 to customize the URL. I faced issues with installing Docker on my laptop and pushing the image to ECR but learned about Dockerfiles and CI/CD pipelining on GitHub. The steps of the project are outlined in the rest of the document with screenshots provided in the appendix.
+The aim of this project is to build the infrastructure associated with continous deployment in a CI/CD pipeline. Using a simple Flask application, the code is packaged into Docker image, and automatic deployment is push into to AWS. AWS technologies used in this project include IAM, ECR, ECS, and Route53. Elastic Container Registery(ECR) holds the Docker image. When the code is push into AWS, the Flask app is launch into EC2 instances by pulling the image from ECR. An application load balancer is used to direct user requests to the appropriate EC2 instance, and a domain name purchased from Route53 is utilized to customize the URL. 
+
+The steps of the project are outlined in the rest of the document with screenshots provided in the appendix.
 
 ## Identity Access & Management (IAM) User
 The first thing I did was to create an IAM user with the roels necessary to run the AWS Flask app. I did not want to use my IAM user with full administrator access because in industry users will be limited to what access is necessary for them to complete their project. I create a new user name AWS-ECS-FINAL with the following permission policies : 
